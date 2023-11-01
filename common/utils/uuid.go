@@ -3,9 +3,10 @@ package utils
 import (
 	"fmt"
 	"github.com/google/uuid"
+	"xpuls-go-packages/common/types"
 )
 
-func NewUUIDWithPrefix(prefix string) (string, error) {
+func NewUUIDWithPrefix(prefix types.UniqueIdPrefixes) (string, error) {
 	id, err := uuid.NewUUID()
 
 	if err != nil {

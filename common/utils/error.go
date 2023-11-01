@@ -2,7 +2,7 @@ package utils
 
 import (
 	"github.com/pkg/errors"
-	"xpuls-go-packages/xpuls-common/constants"
+	"xpuls-go-packages/common/constants"
 )
 
 func IsNotFound(err error) bool {
