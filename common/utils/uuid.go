@@ -3,7 +3,7 @@ package utils
 import (
 	"fmt"
 	"github.com/google/uuid"
-	"xpuls-go-packages/common/types"
+	"xpuls.io/xpuls-go-packages/common/types"
 )
 
 func NewUUIDWithPrefix(prefix types.UniqueIdPrefixes) (string, error) {
