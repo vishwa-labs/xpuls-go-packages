@@ -1,4 +1,4 @@
-module xpuls.io/xpuls-go-packages
+module github.com/xpuls-labs/xpuls-go-packages
 
 go 1.21.0
 
